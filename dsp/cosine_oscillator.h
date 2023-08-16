@@ -31,7 +31,8 @@
 #define STMLIB_DSP_COSINE_OSCILLATOR_H_
 
 #include "stmlib/stmlib.h"
-
+#define _USE_MATH_DEFINES
+#include <math.h> 
 #include <cmath>
 
 namespace stmlib {

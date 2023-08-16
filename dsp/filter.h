@@ -31,9 +31,11 @@
 #define STMLIB_DSP_FILTER_H_
 
 #include "stmlib/stmlib.h"
-
 #include <cmath>
 #include <algorithm>
+
+#define _USE_MATH_DEFINES
+#include <math.h> 
 
 namespace stmlib {
 
